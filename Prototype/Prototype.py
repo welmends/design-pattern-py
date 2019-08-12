@@ -48,37 +48,42 @@ class Logan(Car):
 # In[5]:
 
 
-def main():
-    sanderoPrototype = Sandero()
-    loganPrototype = Logan()
-    
-    print('Prototypes:')
-    print(sanderoPrototype)
-    print(loganPrototype)
-    print('')
-    
-    sanderoLife    = sanderoPrototype.clone('Life   ', 46990)
-    sanderoZen     = sanderoPrototype.clone('Zen    ', 49990)
-    sanderoIntense = sanderoPrototype.clone('Intense', 65490)
-    
-    print('Sandero Instances:')
-    print(sanderoLife)
-    print(sanderoZen)
-    print(sanderoIntense)
-    print('')
-    
-    loganLife    = loganPrototype.clone('Life   ', 50490)
-    loganZen     = loganPrototype.clone('Zen    ', 53490)
-    loganIntense = loganPrototype.clone('Intense', 68990)
-    
-    print('Logan Instances:')
-    print(loganLife)
-    print(loganZen)
-    print(loganIntense)
-    print('')
-    
-if __name__ == "__main__":
-    main()
+print('Prototypes:')
+
+sanderoPrototype = Sandero()
+loganPrototype = Logan()
+
+print(sanderoPrototype)
+print(loganPrototype)
+
+
+# In[6]:
+
+
+print('Sandero Instances:')
+
+sanderoLife    = sanderoPrototype.clone('Life   ', 46990)
+sanderoZen     = sanderoPrototype.clone('Zen    ', 49990)
+sanderoIntense = sanderoPrototype.clone('Intense', 65490)
+
+
+print(sanderoLife)
+print(sanderoZen)
+print(sanderoIntense)
+
+
+# In[7]:
+
+
+print('Logan Instances:')
+
+loganLife    = loganPrototype.clone('Life   ', 50490)
+loganZen     = loganPrototype.clone('Zen    ', 53490)
+loganIntense = loganPrototype.clone('Intense', 68990)
+
+print(loganLife)
+print(loganZen)
+print(loganIntense)
 
 
 # #### Mais Informações

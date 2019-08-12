@@ -13190,37 +13190,13 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-    <span class="n">sanderoPrototype</span> <span class="o">=</span> <span class="n">Sandero</span><span class="p">()</span>
-    <span class="n">loganPrototype</span> <span class="o">=</span> <span class="n">Logan</span><span class="p">()</span>
-    
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Prototypes:&#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">sanderoPrototype</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">loganPrototype</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-    
-    <span class="n">sanderoLife</span>    <span class="o">=</span> <span class="n">sanderoPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Life   &#39;</span><span class="p">,</span> <span class="mi">46990</span><span class="p">)</span>
-    <span class="n">sanderoZen</span>     <span class="o">=</span> <span class="n">sanderoPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Zen    &#39;</span><span class="p">,</span> <span class="mi">49990</span><span class="p">)</span>
-    <span class="n">sanderoIntense</span> <span class="o">=</span> <span class="n">sanderoPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Intense&#39;</span><span class="p">,</span> <span class="mi">65490</span><span class="p">)</span>
-    
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Sandero Instances:&#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">sanderoLife</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">sanderoZen</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">sanderoIntense</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-    
-    <span class="n">loganLife</span>    <span class="o">=</span> <span class="n">loganPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Life   &#39;</span><span class="p">,</span> <span class="mi">50490</span><span class="p">)</span>
-    <span class="n">loganZen</span>     <span class="o">=</span> <span class="n">loganPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Zen    &#39;</span><span class="p">,</span> <span class="mi">53490</span><span class="p">)</span>
-    <span class="n">loganIntense</span> <span class="o">=</span> <span class="n">loganPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Intense&#39;</span><span class="p">,</span> <span class="mi">68990</span><span class="p">)</span>
-    
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Logan Instances:&#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">loganLife</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">loganZen</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">loganIntense</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-    
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
-    <span class="n">main</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Prototypes:&#39;</span><span class="p">)</span>
+
+<span class="n">sanderoPrototype</span> <span class="o">=</span> <span class="n">Sandero</span><span class="p">()</span>
+<span class="n">loganPrototype</span> <span class="o">=</span> <span class="n">Logan</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">sanderoPrototype</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">loganPrototype</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13238,19 +13214,93 @@ div#notebook {
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Prototypes:
-Sandero Prototype - R$ None - Memory Address: 0x7fd7b03e1cc0
-Logan Prototype - R$ None - Memory Address: 0x7fd7b03e1c50
+Sandero Prototype - R$ None - Memory Address: 0x7f7b5404f390
+Logan Prototype - R$ None - Memory Address: 0x7f7b5404f4a8
+</pre>
+</div>
+</div>
 
-Sandero Instances:
-Sandero Life    - R$ 46990 - Memory Address: 0x7fd7b03e1d30
-Sandero Zen     - R$ 49990 - Memory Address: 0x7fd7b03e1d68
-Sandero Intense - R$ 65490 - Memory Address: 0x7fd7b03e1da0
+</div>
+</div>
 
-Logan Instances:
-Logan Life    - R$ 50490 - Memory Address: 0x7fd7b03e1dd8
-Logan Zen     - R$ 53490 - Memory Address: 0x7fd7b03e1e10
-Logan Intense - R$ 68990 - Memory Address: 0x7fd7b03e1e48
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Sandero Instances:&#39;</span><span class="p">)</span>
 
+<span class="n">sanderoLife</span>    <span class="o">=</span> <span class="n">sanderoPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Life   &#39;</span><span class="p">,</span> <span class="mi">46990</span><span class="p">)</span>
+<span class="n">sanderoZen</span>     <span class="o">=</span> <span class="n">sanderoPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Zen    &#39;</span><span class="p">,</span> <span class="mi">49990</span><span class="p">)</span>
+<span class="n">sanderoIntense</span> <span class="o">=</span> <span class="n">sanderoPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Intense&#39;</span><span class="p">,</span> <span class="mi">65490</span><span class="p">)</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="n">sanderoLife</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sanderoZen</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sanderoIntense</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Sandero Instances:
+Sandero Life    - R$ 46990 - Memory Address: 0x7f7b5404fa20
+Sandero Zen     - R$ 49990 - Memory Address: 0x7f7b5404fa90
+Sandero Intense - R$ 65490 - Memory Address: 0x7f7b5404fb00
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Logan Instances:&#39;</span><span class="p">)</span>
+
+<span class="n">loganLife</span>    <span class="o">=</span> <span class="n">loganPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Life   &#39;</span><span class="p">,</span> <span class="mi">50490</span><span class="p">)</span>
+<span class="n">loganZen</span>     <span class="o">=</span> <span class="n">loganPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Zen    &#39;</span><span class="p">,</span> <span class="mi">53490</span><span class="p">)</span>
+<span class="n">loganIntense</span> <span class="o">=</span> <span class="n">loganPrototype</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="s1">&#39;Intense&#39;</span><span class="p">,</span> <span class="mi">68990</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">loganLife</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">loganZen</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">loganIntense</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Logan Instances:
+Logan Life    - R$ 50490 - Memory Address: 0x7f7b5404fba8
+Logan Zen     - R$ 53490 - Memory Address: 0x7f7b5404fc18
+Logan Intense - R$ 68990 - Memory Address: 0x7f7b5404fc88
 </pre>
 </div>
 </div>
