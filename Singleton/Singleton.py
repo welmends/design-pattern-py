@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# ### Singleton - Uma classe da qual apenas uma única instância pode existir
+# 
+# ### Mais informações
+# - https://www.opus-software.com.br/singleton-design-pattern/
+# - https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
+#                      
+
 # In[1]:
 
 
@@ -58,8 +65,3 @@ conf_2 = ConfigSysAttr()
 print(conf_1)
 print(conf_2)
 
-
-# #### Mais informações
-# - https://www.opus-software.com.br/singleton-design-pattern/
-# - https://stackoverflow.com/questions/6760685/creating-a-singleton-in-python
-#                      

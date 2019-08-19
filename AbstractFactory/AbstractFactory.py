@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# ### Abstract Factory - Cria uma instância de várias famílias de classes
+# 
+# ### Mais Informações
+# - http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/abstractfactory.htm
+
 # In[1]:
 
 
@@ -131,6 +136,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-# ### Mais Informações
-# - http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/abstractfactory.htm

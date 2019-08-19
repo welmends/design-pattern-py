@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# ### Prototype - Proporciona uma instância totalmente inicializada para ser copiada ou clonada
+# 
+# ### Mais Informações
+# - https://www.geeksforgeeks.org/prototype-design-pattern/
+
 # In[1]:
 
 
@@ -85,6 +90,3 @@ print(loganLife)
 print(loganZen)
 print(loganIntense)
 
-
-# #### Mais Informações
-# - https://www.geeksforgeeks.org/prototype-design-pattern/
