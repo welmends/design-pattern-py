@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Abstract Factory - Cria uma instância de várias famílias de classes
+# ### Abstract Factory - Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas
 # 
 # ### Mais Informações
 # - http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/abstractfactory.htm

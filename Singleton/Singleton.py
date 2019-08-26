@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Singleton - Uma classe da qual apenas uma única instância pode existir
+# ### Singleton - Garantir que uma classe tenha somente uma instância e fornece um ponto global de acesso para a mesma
 # 
 # ### Mais informações
 # - https://www.opus-software.com.br/singleton-design-pattern/

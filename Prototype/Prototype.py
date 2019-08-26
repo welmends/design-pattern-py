@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Prototype - Proporciona uma instância totalmente inicializada para ser copiada ou clonada
+# ### Prototype - Especificar tipos de objetos a serem criados usando uma instância protótipo e criar novos objetos pela cópia desse protótipo
 # 
 # ### Mais Informações
 # - https://www.geeksforgeeks.org/prototype-design-pattern/
