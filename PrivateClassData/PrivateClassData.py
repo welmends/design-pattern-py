@@ -27,13 +27,13 @@ class Wallet:
 my_wallet = Wallet("001", 100)
 
 try:
-    print('Printando atributos...')
+    print('>> Printando atributos...')
     print(my_wallet.id)
     print(my_wallet.__valor)
 except Exception as ex:
     print(ex)
 
-print('Printando e modificando atributos privados...')
+print('>> Printando e modificando atributos privados...')
 print(my_wallet.getValue())
 my_wallet.addFunds(50)
 print(my_wallet.__dict__)
