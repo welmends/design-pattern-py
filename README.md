@@ -13,3 +13,4 @@
 |[Object Pool](https://github.com/welmends/DesignPatternPy/blob/master/ObjectPool)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/ObjectPool/ObjectPool.ipynb)|
 |[Private Class Data](https://github.com/welmends/DesignPatternPy/blob/master/PrivateClassData)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/PrivateClassData/PrivateClassData.ipynb)|
 |[Adapter](https://github.com/welmends/DesignPatternPy/blob/master/Adapter)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Adapter/Adapter.ipynb)|
+|[Bridge](https://github.com/welmends/DesignPatternPy/blob/master/Bridge)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Bridge/Bridge.ipynb)|
