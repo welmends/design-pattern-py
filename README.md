@@ -15,3 +15,4 @@
 |[Adapter](https://github.com/welmends/DesignPatternPy/blob/master/Adapter)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Adapter/Adapter.ipynb)|
 |[Bridge](https://github.com/welmends/DesignPatternPy/blob/master/Bridge)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Bridge/Bridge.ipynb)|
 |[Composite](https://github.com/welmends/DesignPatternPy/blob/master/Composite)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Composite/Composite.ipynb)|
+|[Decorator](https://github.com/welmends/DesignPatternPy/blob/master/Decorator)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Decorator/Decorator.ipynb)|
