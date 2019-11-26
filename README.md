@@ -1,6 +1,6 @@
-## Design Pattern (Python)
+## Design Pattern (Python) :chart_with_upwards_trend: :bar_chart:
 
-### Rendering .ipynb files
+### Rendering .ipynb files :bookmark_tabs:
 - https://nbviewer.jupyter.org/
 
 ### List of Patterns
@@ -14,5 +14,5 @@
 |[Private Class Data](https://github.com/welmends/DesignPatternPy/blob/master/PrivateClassData)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/PrivateClassData/PrivateClassData.ipynb)| |[State](https://github.com/welmends/DesignPatternPy/blob/master/State)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/State/State.ipynb)|
 |[Adapter](https://github.com/welmends/DesignPatternPy/blob/master/Adapter)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Adapter/Adapter.ipynb)| |[Visitor](https://github.com/welmends/DesignPatternPy/blob/master/Visitor)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Visitor/Visitor.ipynb)|
 |[Bridge](https://github.com/welmends/DesignPatternPy/blob/master/Bridge)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Bridge/Bridge.ipynb)| |[Mediator](https://github.com/welmends/DesignPatternPy/blob/master/Mediator)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Mediator/Mediator.ipynb)|
-|[Composite](https://github.com/welmends/DesignPatternPy/blob/master/Composite)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Composite/Composite.ipynb)| |[Observer](https://github.com/welmends/DesignPatternPy/blob/master/Observer)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Observer/Observer.ipynb)|
-|[Decorator](https://github.com/welmends/DesignPatternPy/blob/master/Decorator)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Decorator/Decorator.ipynb)| |[Iterator](https://github.com/welmends/DesignPatternPy/blob/master/Iterator)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Iterator/Iterator.ipynb)|
+|[Composite](https://github.com/welmends/DesignPatternPy/blob/master/Composite)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Composite/Composite.ipynb)| |[Iterator](https://github.com/welmends/DesignPatternPy/blob/master/Iterator)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Iterator/Iterator.ipynb)|
+|[Decorator](https://github.com/welmends/DesignPatternPy/blob/master/Decorator)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Decorator/Decorator.ipynb)| |[Observer](https://github.com/welmends/DesignPatternPy/blob/master/Observer)|[Code](https://github.com/welmends/DesignPatternPy/blob/master/Observer/Observer.ipynb)| 
